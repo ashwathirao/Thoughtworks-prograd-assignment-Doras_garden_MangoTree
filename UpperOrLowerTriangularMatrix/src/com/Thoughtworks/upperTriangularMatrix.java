@@ -2,7 +2,7 @@ package com.Thoughtworks;
 
 import java.util.Scanner;
 
-public class Main {
+public class upperTriangularMatrix {
 
     static int array[][];
     static int row,column;
@@ -25,7 +25,6 @@ public class Main {
             }
         }
         System.out.print(upperOrLowerTriangularMatrix(0,0,"upper")?"YES":"NO");
-        System.out.println(upperOrLowerTriangularMatrix(1,column,"lower")?"YES":"NO");
 
     }
     public static boolean upperOrLowerTriangularMatrix(int stind,int endind,String type)
