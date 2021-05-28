@@ -2,7 +2,7 @@ package com.Thoughtworks;
 
 import java.util.Scanner;
 
-public class upperTriangularMatrix {
+public class UpperTriangularMatrix {
 
     static int array[][];
     static int row,column;
