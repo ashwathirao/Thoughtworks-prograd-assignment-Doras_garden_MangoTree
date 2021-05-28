@@ -2,7 +2,7 @@ package com.Thoughtworks;
 
 import java.util.Scanner;
 
-public class Main {
+public class LowerupperTriangularMatrix {
 
     static int array[][];
     static int row,column;
@@ -24,7 +24,6 @@ public class Main {
                 array[rowind][colind]=sc.nextInt();
             }
         }
-        System.out.print(upperOrLowerTriangularMatrix(0,0,"upper")?"YES":"NO");
         System.out.println(upperOrLowerTriangularMatrix(1,column,"lower")?"YES":"NO");
 
     }
