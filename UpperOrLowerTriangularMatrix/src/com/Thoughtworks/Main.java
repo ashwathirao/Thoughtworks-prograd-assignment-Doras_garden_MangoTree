@@ -24,8 +24,8 @@ public class Main {
                 array[rowind][colind]=sc.nextInt();
             }
         }
-        System.out.println(upperOrLowerTriangularMatrix(0,0,"upper")?"YES":"NO");
-        
+        System.out.print(upperOrLowerTriangularMatrix(0,0,"upper")?"YES":"NO");
+        System.out.println(upperOrLowerTriangularMatrix(1,column,"lower")?"YES":"NO");
 
     }
     public static boolean upperOrLowerTriangularMatrix(int stind,int endind,String type)
